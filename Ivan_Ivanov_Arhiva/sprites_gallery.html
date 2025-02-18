@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SpriteBites</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand text-white" href="index.html"><img src="./images/logo.svg" alt="logo" width="60px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon bg-light">
+                        <!--probati staviti svoju ikonu-->
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-white" href="#" data-bs-toggle="collapse" aria-expanded="false">
+                                Gallery
+                                <!--na mobitelu kad se gallery otvori više se ne zatvori, to treba nekako popravit-->
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="sprites_gallery.html">Sprites</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="sprite_sheets_gallery.html">Sprite sheets</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="animation_gallery.html">Animation</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="about.html">
+                                About
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="contact.html">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div type="button" onclick="history.back()" class="mt-5 pt-5">
+            <img src="./images/goBackArrow.png" alt="back">
+        </div>
+
+        <div class="container text-center p-5 mt-5 pt-5">
+            <h1>Sprites gallery</h1>
+            <!--ovdje ide nekih 6-10 spriteova-->
+        </div>
+
+        <!--add download option for images-->
+        <div class="container-sm my-5">
+            <div class="row">
+                <div class="col-sm-4 col-lg-4 p-5 text-center gallery-window bg-secondary text-white">
+                    <img src="./images/sprites/apple.png" alt="apple sprite" width="50%">
+                    <h2 class="p-5">Apple</h2>
+                </div>
+                <div class="col-sm-4 col-lg-4 p-5 text-center gallery-window bg-secondary text-white">
+                    <img src="./images/sprites/balloon.png" alt="ballon sprite" width="50%">
+                    <h2 class="p-5">Balloon</h2>
+                </div>
+                <div class="col-sm-4 col-lg-4 p-5 text-center gallery-window bg-secondary text-white">
+                    <img src="./images/sprites/bucket.png" alt="bucket sprite" width="50%">
+                    <h2 class="p-5">Bucket</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-sm my-5">
+            <div class="row">
+                <div class="col-sm-4 col-lg-4 p-5 text-center gallery-window bg-secondary text-white">
+                    <img src="./images/sprites/crystal.png" alt="crystal sprite" width="50%">
+                    <h2 class="p-5">Crystal</h2>
+                </div>
+                <div class="col-sm-4 col-lg-4 p-5 text-center gallery-window bg-secondary text-white">
+                    <img src="./images/sprites/pineTree.png" alt="pine tree sprite" width="50%">
+                    <h2 class="p-5">Pine tree</h2>
+                </div>
+                <div class="col-sm-4 col-lg-4 p-5 text-center gallery-window bg-secondary text-white">
+                    <img src="./images/sprites/shield.png" alt="shield sprite" width="50%">
+                    <h2 class="p-5">Shield</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-sm my-5">
+            <div class="row">
+                <div class="col-sm-4 col-lg-4 p-5 text-center gallery-window bg-secondary text-white">
+                    <img src="./images/sprites/snowman.png" alt="snowman sprite" width="50%">
+                    <h2 class="p-5">Snowman</h2>
+                </div>
+                <div class="col-sm-4 col-lg-4 p-5 text-center gallery-window bg-secondary text-white">
+                    <img src="./images/sprites/sword.png" alt="sword sprite" width="50%">
+                    <h2 class="p-5">Sword</h2>
+                </div>
+                <div class="col-sm-4 col-lg-4 p-5 text-center gallery-window bg-secondary text-white">
+                    <img src="./images/sprites/toaster.png" alt="toaster sprite" width="50%">
+                    <h2 class="p-5">Toaster</h2>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+
+</html>

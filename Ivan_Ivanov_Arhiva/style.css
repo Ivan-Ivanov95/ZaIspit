@@ -1,0 +1,12 @@
+.dropdown:hover>.dropdown-menu{
+    display: block;
+}
+
+.gallery-window{
+    border: solid 4px black;
+}
+
+.video-window{
+    border: solid 4px black;
+    background-color: blue;
+}
